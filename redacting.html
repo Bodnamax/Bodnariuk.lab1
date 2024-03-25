@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navigation">
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="#functions">Послуги</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="home" class="block">
+          <h2>Допомога редактору</h2>
+          <p>Редактування.</p>
+        </section>
+    </div>
+    <script src="redacting.js"></script>
+    <label for="text"><p>введіть текст:</p></label> <br>
+    <input type="text"id="txt"> 
+    <button onclick="redact()" id="count-btn">Редегувати</button> 
+    <label for="text"><p>Відредагований текст:</p></label> <br>
+    <input type="text" id="result" readonly>
+
+    <script src="redaction.js"></script>
+    
+</body>
+</html>
